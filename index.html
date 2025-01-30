@@ -1,29 +1,100 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- daisyUI -->
     <link
-    href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
-    rel="stylesheet"
-    type="text/css"
-  />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
             clifford: "#da373d",
+            },
           },
         },
-      },
-    };
-  </script>
-</head>
-<body>
-    
-</body>
+      };
+    </script>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="md:container mx-auto">
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <a class="text-xl">
+              <img
+                src="./Assignment_03_Category_0002/c2-assets/logo-header.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Product</a></li>
+              <li><a>Services</a></li>
+              <li><a>Contact Us</a></li>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </ul>
+          </div>
+          <div class="navbar-end gap-3">
+            <button class="btn btn-outline btn-success">Success</button>
+
+            <button class="btn btn-success text-white">Success</button>
+          </div>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <div class="hero bg-gradient-to-t from-stone-100 ">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-4xl font-bold">Freshness <span class="text-green-600">You Can <br>
+                Count On</span>, Prices You’ll Love!</h1>
+            <p class="py-6">
+                Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+            </p>
+            <img  src="./Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </header>
+
+    <!-- main section -->
+    <main></main>
+    <!-- footer section -->
+    <footer></footer>
+  </body>
 </html>
