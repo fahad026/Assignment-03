@@ -16,7 +16,7 @@
         theme: {
           extend: {
             colors: {
-            clifford: "#da373d",
+              clifford: "#da373d",
             },
           },
         },
@@ -25,8 +25,8 @@
   </head>
   <body>
     <!-- header section -->
-    <header class="md:container mx-auto">
-      <nav>
+    <header>
+      <nav class="md:container mx-auto">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -55,7 +55,7 @@
                 <li><a>Contact Us</a></li>
               </ul>
             </div>
-            <a class="text-xl">
+            <a>
               <img
                 src="./Assignment_03_Category_0002/c2-assets/logo-header.png"
                 alt=""
@@ -77,83 +77,88 @@
         </div>
       </nav>
       <!-- hero section -->
-      <div class="hero bg-gradient-to-t from-stone-100 ">
+      <div class="hero bg-gradient-to-t from-stone-100">
         <div class="hero-content text-center">
           <div class="max-w-md">
-            <h1 class="text-4xl font-bold">Freshness <span class="text-green-600">You Can <br>
-                Count On</span>, Prices You’ll Love!</h1>
+            <h1 class="text-4xl font-bold">
+              Freshness
+              <span class="text-green-600"
+                >You Can <br />
+                Count On</span
+              >, Prices You’ll Love!
+            </h1>
             <p class="py-6">
-                Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+              Shop your daily essentials at unbeatable prices. From fresh
+              produce to pantry staples, we’ve got you covered every day!
             </p>
-            <img  src="./Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+            <img
+              src="./Assignment_03_Category_0002/c2-assets/hero-vegetables.png"
+              alt=""
+            />
           </div>
-          
         </div>
       </div>
     </header>
 
     <!-- main section -->
-    <main class="md:container mx-auto">
-        <!-- services section -->
+    <main >
+      <!-- services section -->
+      <section class="md:container mx-auto">
+        <!-- title -->
         <div>
-            <!-- title -->
-            <div>
-                <h1 class="font-bold text-green-600 text-2xl mt-14">services</h1>
-             </div>
-
-             <!-- card -->
-              <div class="grid grid-cols-3">
-                <div class="card bg-base-100 w-96 shadow-xl bg-slate-200">
-                    <figure class="px-10 pt-10">
-                      <img
-                        src="./Assignment_03_Category_0002/c2-assets/service.png"
-                        alt="Shoes"
-                        class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                        <button class="btn btn-primary">Buy Now</button>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <div>
-                <div class="card bg-base-100 w-96 shadow-xl bg-slate-200">
-                    <figure class="px-10 pt-10">
-                      <img
-                        src="./Assignment_03_Category_0002/c2-assets/service.png"
-                        alt="Shoes"
-                        class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                        <button class="btn btn-primary">Buy Now</button>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <div>
-                <div class="card bg-base-100 w-96 shadow-xl bg-slate-200">
-                    <figure class="px-10 pt-10">
-                      <img
-                        src="./Assignment_03_Category_0002/c2-assets/service.png"
-                        alt="Shoes"
-                        class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                        <button class="btn btn-primary">Buy Now</button>
-                      </div>
-                    </div>
-                  </div>
-              </div>
+          <h1 class="font-bold text-green-600 text-2xl mt-14 mb-20"> services : <hr class="underline-offset-4 w-96"></h1>
         </div>
+
+        <!-- card -->
+        <div class="flex lg:gap-20 md:grid grid-cols-3 md:gap-16 flex-wrap ">
+          <!-- card-1 -->
+          <div class="card bg-slate-100 w-96 shadow-xl ml-12 mb-8">
+            <figure class="px-10 pt-10">
+              <img class="border"
+                src="./Assignment_03_Category_0002/c2-assets/service.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">24/7 Services </h2>
+              <p>Our service is open for 24/7.If you want our service then you can contact with us by using our website.</p>
+              
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card bg-slate-100 w-96 shadow-xl ml-12 mb-8">
+
+
+
+            <figure class="px-10 pt-10">
+              <img
+                src="./Assignment_03_Category_0002/c2-assets/delivery.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Fast Delivery</h2>
+              <p>our delivery is much faster and safe comparing others</p>
+              
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="card bg-slate-100 w-96 shadow-xl ml-12 mb-8">
+            <figure class="px-10 pt-10">
+              <img
+                src="./Assignment_03_Category_0002/c2-assets/healthy.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Healthy Products</h2>
+              <p>we know health is wealth and as a human being we should not take unhealthy foods for our selfs.That's why we are providing the healthy veges to you guys.</p>
+            </div>
+          </div>
+
+        </div>
+        
+      </section>
     </main>
     <!-- footer section -->
     <footer></footer>
